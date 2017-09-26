@@ -18,18 +18,16 @@ const data = {
     "state"       : "DC",
     "postcode"    : "20005",
     "restaurants" : [
-        /*
-        { "name":"Whole Foods",
+        { "name":"Whole Foods, spelled as <say-as interpret-as="spell-out">Whole Foods</say-as>",
             "address":"123 Fake Street", "phone": "978-283-0474",
             "meals": "breakfast, lunch",
             "description": "A big supermarket chain that Amazon just bought. Doing so made chicken cheaper."
         },
-        { "name":"District Taco",
+        { "name":"District Taco, spelled <say-as interpret-as="spell-out">District Taco</say-as>",
             "address":"25 Rogers Street", "phone": "978-281-0223",
             "meals": "lunch, dinner",
             "description": "The best tacos in DC, which makes them pretty average by national standards."
         },
-        */
         { "name":"Founding Farmers, spelled <say-as interpret-as="spell-out">Founding Farmers</say-as>",
             "address":"178 Washington Street", "phone": "978-281-1910",
             "meals": "coffee, breakfast, lunch",
