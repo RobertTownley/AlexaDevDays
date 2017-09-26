@@ -23,7 +23,7 @@ const data = {
             "meals": "breakfast, lunch",
             "description": "A big supermarket chain that Amazon just bought. Doing so made chicken cheaper."
         },
-        { "name":"District Taco,
+        { "name":"District Taco",
             "address":"25 Rogers Street", "phone": "978-281-0223",
             "meals": "lunch, dinner",
             "description": "The best tacos in DC, which makes them pretty average by national standards."
