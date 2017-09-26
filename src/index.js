@@ -18,6 +18,7 @@ const data = {
     "state"       : "DC",
     "postcode"    : "20005",
     "restaurants" : [
+        /*
         { "name":"Whole Foods",
             "address":"123 Fake Street", "phone": "978-283-0474",
             "meals": "breakfast, lunch",
@@ -28,7 +29,8 @@ const data = {
             "meals": "lunch, dinner",
             "description": "The best tacos in DC, which makes them pretty average by national standards."
         },
-        { "name":"Founding Farmers",
+        */
+        { "name":"Founding Farmers, spelled <say-as interpret-as="spell-out">Founding Farmers</say-as>",
             "address":"178 Washington Street", "phone": "978-281-1910",
             "meals": "coffee, breakfast, lunch",
             "description": "This restaurant used to be really great, but it's gotten crowded. The $5 cornbread is still legit though."
