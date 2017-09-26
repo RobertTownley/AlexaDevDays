@@ -5,76 +5,61 @@
 const languageStrings = {
     'en': {
         'translation': {
-            'WELCOME' : "Welcome to Gloucester Guide!",
+            'WELCOME' : "Welcome to DC Guide!",
             'HELP'    : "Say about, to hear more about the city, or say coffee, breakfast, lunch, or dinner, to hear local restaurant suggestions, or say recommend an attraction, or say, go outside. ",
-            'ABOUT'   : "Gloucester Massachusetts is a city on the Atlantic Ocean.  A popular summer beach destination, Gloucester has a rich history of fishing and ship building.",
+            'ABOUT'   : "Washington DC is a city in the United States.  It is not a a popular summer beach destination, but the Lincoln Memorial is pretty at night",
             'STOP'    : "Okay, see you next time!"
         }
     }
     // , 'de-DE': { 'translation' : { 'TITLE'   : "Local Helfer etc." } }
 };
 const data = {
-    "city"        : "Gloucester",
-    "state"       : "MA",
-    "postcode"    : "01930",
+    "city"        : "Washington",
+    "state"       : "DC",
+    "postcode"    : "20005",
     "restaurants" : [
-        { "name":"Zeke's Place",
-            "address":"66 East Main Street", "phone": "978-283-0474",
+        { "name":"Whole Foods",
+            "address":"123 Fake Street", "phone": "978-283-0474",
             "meals": "breakfast, lunch",
-            "description": "A cozy and popular spot for breakfast.  Try the blueberry french toast!"
+            "description": "A big supermarket chain that Amazon just bought. Doing so made chicken cheaper."
         },
-        { "name":"Morning Glory Coffee Shop",
-            "address":"25 Western Avenue", "phone": "978-281-1851",
-            "meals": "coffee, breakfast, lunch",
-            "description": "A homestyle diner located just across the street from the harbor sea wall."
-        },
-        { "name":"Sugar Magnolias",
-            "address":"112 Main Street", "phone": "978-281-5310",
-            "meals": "breakfast, lunch",
-            "description": "A quaint eatery, popular for weekend brunch.  Try the carrot cake pancakes."
-        },
-        { "name":"Seaport Grille",
-            "address":"6 Rowe Square", "phone": "978-282-9799",
-            "meals": "lunch, dinner",
-            "description": "Serving seafood, steak and casual fare.  Enjoy harbor views on the deck."
-        },
-        { "name":"Latitude 43",
+        { "name":"District Taco,
             "address":"25 Rogers Street", "phone": "978-281-0223",
             "meals": "lunch, dinner",
-            "description": "Features artsy decor and sushi specials.  Live music evenings at the adjoining Minglewood Tavern."
+            "description": "The best tacos in DC, which makes them pretty average by national standards."
         },
-        { "name":"George's Coffee Shop",
+        { "name":"Founding Farmers",
             "address":"178 Washington Street", "phone": "978-281-1910",
             "meals": "coffee, breakfast, lunch",
-            "description": "A highly rated local diner with generously sized plates."
+            "description": "This restaurant used to be really great, but it's gotten crowded. The $5 cornbread is still legit though."
         },
 
     ],
     "attractions":[
         {
             "name": "Whale Watching",
-            "description": "Gloucester has tour boats that depart twice daily from Rogers street at the harbor.  Try either the 7 Seas Whale Watch, or Captain Bill and Sons Whale Watch. ",
+            "description": "Washington DC has no whale watching. Whales would have an incredibly difficult time surviving in the Potomac, and their presence would be dangerous for Kayaks.",
             "distance": "0"
         },
         {
-            "name": "Good Harbor Beach",
-            "description": "Facing the Atlantic Ocean, Good Harbor Beach has huge expanses of soft white sand that attracts hundreds of visitors every day during the summer.",
+            "name": "DC Beach",
+            "description": "On the Potomac River, there are some sandy areas south near Alexandria. They're not great for swimming, but they have some pretty shorefronts.",
             "distance": "2"
         },
         {
             "name": "Rockport",
-            "description": "A quaint New England town, Rockport is famous for rocky beaches, seaside parks, lobster fishing boats, and several art studios.",
+            "description": "Rockport is really far away. If you're in DC you probably shouldn't try to go there for a day trip.",
             "distance": "4"
         },
         {
-            "name": "Fenway Park",
-            "description": "Home of the Boston Red Sox, Fenway park hosts baseball games From April until October, and is open for tours. ",
+            "name": "Nats Park",
+            "description": "Nats Park is home to the Washington Nationals. Sometimes they do $1 hot dog days, which is awesome.",
             "distance": "38"
         }
     ]
 }
 
-const SKILL_NAME = "Gloucester Guide";
+const SKILL_NAME = "DC Guide";
 
 // Weather courtesy of the Yahoo Weather API.
 // This free API recommends no more than 2000 calls per day
